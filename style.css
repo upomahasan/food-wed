@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 50px;
 }
 .hulf-width{
     width: 50%;
@@ -22,12 +23,20 @@ section{
 .link-button{
     text-decoration: none;
     background:crimson;
-    padding: 2px 8px;
+    padding: 10px 15px;
     color: cornsilk;
     font-weight: 700;
-    border-radius: 2px;
+    border-radius: 9px;
 }
 .top-banner{
      background-image: url(Frame\ 59.jpg);
      background-repeat: no-repeat;
+     padding: 10px 15px;
+    
+
+}
+.healthy-food{
+    background-image: url(Frame\ 57.png.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
