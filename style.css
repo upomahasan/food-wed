@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0%;
+    background-color: lightblue;
 }
 h1{
     font-size: 50px;
@@ -8,9 +9,10 @@ h1{
 .blue-color{
     color:blue;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
+    
 }
 .hulf-width{
     width: 50%;
@@ -40,3 +42,39 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.food-area{
+    text-align: center;
+    background-color: lightgray;
+
+}
+.food-item{
+    
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 30px rgb(160, 88, 88);
+    font-weight: 800;
+
+    
+}
+footer{
+    text-align: center;
+    background-color: rgb(188, 255, 80);
+    }
+    .img-area1{
+        background-image: url(picture2.png);
+        background-repeat: no-repeat;
+        size: 20px;
+    }
+    .img-area2{
+        background-image: url(pitute1.png);
+        background-repeat: no-repeat;
+        size: 20px;
+    }
+    .img-area3{
+    background-image: url(Project\ Cover8.png);
+    background-repeat: no-repeat;
+    size: 20px;
+    }
